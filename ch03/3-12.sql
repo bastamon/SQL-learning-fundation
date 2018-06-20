@@ -1,0 +1,1 @@
+SELECT sum(hanbai_tanka),sum(distinct hanbai_tanka) FROM shop.Shohin;

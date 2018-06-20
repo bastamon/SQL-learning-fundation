@@ -1,0 +1,1 @@
+SELECT max(hanbai_tanka),min(shiire_tanka) FROM shop.Shohin;

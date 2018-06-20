@@ -1,0 +1,1 @@
+SELECT count(*),count(shiire_tanka) FROM Shohin;

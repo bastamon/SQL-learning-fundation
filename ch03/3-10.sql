@@ -1,0 +1,1 @@
+SELECT count(distinct shohin_bunrui) FROM shop.Shohin;
