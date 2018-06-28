@@ -11,7 +11,7 @@
 <table>
     <tr>
         <th width=15%, bgcolor=yellow >MySQL数据类型</th>
-        <th width=40%, bgcolor=yellow>含义</th>
+        <th width=20%, bgcolor=yellow>含义</th>
         <th width=10%, bgcolor=yellow>字节</th>
     </tr>
     <tr>
@@ -44,7 +44,7 @@
 <table>
     <tr>
         <th width=15%, bgcolor=yellow >MySQL数据类型</th>
-        <th width=40%, bgcolor=yellow>含义</th>
+        <th width=20%, bgcolor=yellow>含义</th>
         <th width=10%, bgcolor=yellow>字节</th>
     </tr>
     <tr>
@@ -63,7 +63,7 @@
 <table>
     <tr>
         <th width=15%, bgcolor=yellow >MySQL数据类型</th>
-        <th width=40%, bgcolor=yellow>含义</th>
+        <th width=20%, bgcolor=yellow>含义</th>
         <th width=10%, bgcolor=yellow>字节</th>
     </tr>
     <tr>
