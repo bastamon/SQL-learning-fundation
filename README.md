@@ -10,7 +10,7 @@
 >取值范围如果加了unsigned，则最大值翻倍，如tinyint unsigned的取值范围为(0~256)。
 <table>
     <tr>
-        <th width=20%, bgcolor=yellow >MySQL数据类型</th>
+        <th width=15%, bgcolor=yellow >MySQL数据类型</th>
         <th width=40%, bgcolor=yellow>存储范围</th>
         <th width=10%, bgcolor=yellow>字节</th>
     </tr>
