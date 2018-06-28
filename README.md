@@ -1,24 +1,24 @@
 # SQL-learning-fundation
 
 # SQL基础教程
-
+```use <database>```
 ## 一、MySQL的数据类型
 
 主要包括以下五大类：
 
-整数类型:
+* 1整数类型:
 >取值范围如果加了unsigned，则最大值翻倍，如tinyint unsigned的取值范围为(0~256)。
 <table>
     <tr>
         <th width=15%, bgcolor=yellow >MySQL数据类型</th>
-        <th width=40%, bgcolor=yellow>存储范围</th>
+        <th width=40%, bgcolor=yellow>含义</th>
         <th width=10%, bgcolor=yellow>字节</th>
     </tr>
     <tr>
         <td>tinyint(m)</td>    
         <td>范围(-128~127)</td>
         <td>1</td>
-    <tr>
+    </tr>
         <td>smallint(m)</td>    
         <td>范围(-32768~32767)</td>
         <td>2</td>
@@ -40,10 +40,41 @@
     </tr>
 </table> 
 
+* 2浮点型(float和double)
+<table>
+    <tr>
+        <th width=15%, bgcolor=yellow >MySQL数据类型</th>
+        <th width=40%, bgcolor=yellow>含义</th>
+        <th width=10%, bgcolor=yellow>字节</th>
+    </tr>
+    <tr>
+        <td>float(m,d)</td>    
+        <td>单精度浮点型</td>
+        <td>8位精度(4字节),m总个数，d小数位</td>
+    </tr>
+        <tr>
+        <td>double(m,d)</td>    
+        <td>双精度浮点型</td>
+        <td>16位精度(8字节),m总个数，d小数位</td>
+    </tr>
+</table>
+
+* 3定点数 
+<table>
+    <tr>
+        <th width=15%, bgcolor=yellow >MySQL数据类型</th>
+        <th width=40%, bgcolor=yellow>含义</th>
+        <th width=10%, bgcolor=yellow>字节</th>
+    </tr>
+    <tr>
+        <td>decimal(m,d)</td>    
+        <td>浮点型在数据库中存放的是近似值，而定点类型在数据库中存放的是精确值</td>
+        <td>参数m<65 是总个数，d<30且 d<m 是小数位。</td>
+    </tr>
+</table>
 
 
 
-BIT、BOOL、TINY INT、SMALL INT、MEDIUM INT、 INT、 BIG INT
 
 浮点数类型：FLOAT、DOUBLE、DECIMAL
 
