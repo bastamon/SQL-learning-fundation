@@ -12,7 +12,7 @@
     <tr>
         <th width=15%, bgcolor=yellow >MySQL数据类型</th>
         <th width=20%, bgcolor=yellow>含义</th>
-        <th width=10%, bgcolor=yellow>字节</th>
+        <th width=30%, bgcolor=yellow>字节</th>
     </tr>
     <tr>
         <td>tinyint(m)</td>    
@@ -45,7 +45,7 @@
     <tr>
         <th width=15%, bgcolor=yellow >MySQL数据类型</th>
         <th width=20%, bgcolor=yellow>含义</th>
-        <th width=10%, bgcolor=yellow>字节</th>
+        <th width=30%, bgcolor=yellow>字节</th>
     </tr>
     <tr>
         <td>float(m,d)</td>    
@@ -64,7 +64,7 @@
     <tr>
         <th width=15%, bgcolor=yellow >MySQL数据类型</th>
         <th width=20%, bgcolor=yellow>含义</th>
-        <th width=10%, bgcolor=yellow>字节</th>
+        <th width=30%, bgcolor=yellow>字节</th>
     </tr>
     <tr>
         <td>decimal(m,d)</td>    
