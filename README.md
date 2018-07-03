@@ -85,3 +85,14 @@
 其他数据类型：BINARY、VARBINARY、ENUM、SET、Geometry、Point、MultiPoint、LineString、MultiLineString、Polygon、GeometryCollection等
 
 ![封面](https://images-cn.ssl-images-amazon.com/images/I/41bD3M4I5IL.jpg)
+
+CREATE USER 'test'@'%' IDENTIFIED BY '558-';
+
+> 前提是有test_winform这个database
+grant all privileges on test_winform.* to test@localhost identified by '558-';
+
+grant all privileges on test_winform.* to test@'%' identified by '558-';
+
+DROP USER 'test'@'%';
+
+flush privileges;
